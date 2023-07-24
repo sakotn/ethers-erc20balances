@@ -80,6 +80,21 @@ pub static CONTRACTS: Lazy<HashMap<U256, Address>> = Lazy::new(|| {
             Address::from_str("0x07f697424ABe762bB808c109860c04eA488ff92B")
                 .expect("Failed to parse address"),
         ), // fanthom
+        (
+            25.into(),
+            Address::from_str("0x56a4420cb0ef5b0d14ce1bbe380992fa31d6a907")
+                .expect("Failed to parse address"),
+        ), // cronos
+        (
+            66.into(),
+            Address::from_str("0x25B3584f4799F788c0189dd6496b0AA02cBA4605")
+                .expect("Failed to parse address"),
+        ), // okt
+        (
+            1666600000.into(),
+            Address::from_str("0x549b6A5A3027F9B73A23Db4bb95701bAcb9b9573")
+                .expect("Failed to parse address"),
+        ), // harmony
     ])
 });
 
