@@ -57,3 +57,26 @@ result:
     0xdac17f958d2ee523a2206206994597c13d831ec7: 1429615184000000,
 },
 ```
+
+# Supported chains
+
+```
+1 - mainnet
+3 - ropsten
+4 - rinkeby
+69 - kovan
+5 - goerli
+56 - binance smart chain mainnet
+97 - binance smart chain testnet
+137 - polygon 
+80001 - mumbai
+10 - optimism
+69 - optimism kovan
+42161 - arbitrum
+43114 - avax
+250 - fantom
+25 - cronos
+66 - okt
+1666600000 - harmony
+17000 - holesky
+```
