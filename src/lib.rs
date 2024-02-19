@@ -44,7 +44,7 @@ pub static CONTRACTS: Lazy<HashMap<U256, Address>> = Lazy::new(|| {
             97.into(),
             Address::from_str("0x2352c63A83f9Fd126af8676146721Fa00924d7e4")
                 .expect("Failed to parse address"),
-        ), // binance smart chain mainnet
+        ), // binance smart chain testnet
         (
             137.into(),
             Address::from_str("0x2352c63A83f9Fd126af8676146721Fa00924d7e4")
@@ -79,7 +79,7 @@ pub static CONTRACTS: Lazy<HashMap<U256, Address>> = Lazy::new(|| {
             250.into(),
             Address::from_str("0x07f697424ABe762bB808c109860c04eA488ff92B")
                 .expect("Failed to parse address"),
-        ), // fanthom
+        ), // fantom
         (
             25.into(),
             Address::from_str("0x56a4420cb0ef5b0d14ce1bbe380992fa31d6a907")
